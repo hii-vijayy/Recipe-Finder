@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  flex-direction: column; 
+  background-color: #2f2e2e; /* Example body background color */
+}
+
+.App {
+  width: 900px;
+  font-family: Arial, sans-serif;
+
+}
+
+.search-container {
+  display: flex;
+}
+
+.search-input {
+  flex: 1; /* Make the input take full width */
+  padding: 15px; /* Add padding for better appearance */
+  border: 1px solid #ccc; /* Border for the input */
+  border-radius: 4px; /* Rounded corners */
+  margin-right: 10px; /* Space between input and button */
+  font-size: 17px;
+}
+
+.search-button {
+  padding: 10px 20px; /* Padding for the button */
+  border: none; /* No border */
+  width: 150px; /* Fixed width for the button */
+  border-radius: 4px; /* Rounded corners */
+  background-color: #a84747; /* Button background color */
+  color: white; /* Button text color */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.search-button:hover {
+  background-color: #a03030; /* Darker shade on hover */
+}
+
+.recipe-details {
+  max-width: 900px; /* Maximum width for recipe details */
+  margin: 20px auto; /* Center the recipe details with some space above */
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 35px; /* Space below the h1 */
+  text-align: center;
+}
+
+
+p {
+  font-size: 16px;
+  color: #fffbfb;
+  text-transform: capitalize;
+}
+
+.recipe-section {
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #ca5151;
+  margin-bottom: 10px;
+}
+
+.ingredients-list,
+.instructions-list,
+.tips-list {
+  padding-left: 50px; 
+}
